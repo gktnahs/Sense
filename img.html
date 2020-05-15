@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>디미고</title>
+        <meta charset="utf-8">
+        <Style>
+            a{
+                text-decoration: none;
+                color: black
+            }
+            figcaption{
+                text-decoration: none;
+                color:blue
+            }
+
+        </Style>
+    </head>
+
+    <body>
+        스마트문화앱콘텐츠제작<br>
+        <ul id="menu">
+            <li><a href="#content1">이미지 태그 연습</a></li>
+            <li><a href="#content2">a 태그 연습</a></li>
+            <li><a href="#content3">마지막 실습</a></li>
+        </ul>
+        <figure>
+            <h2 id="content1"> 이미지 태그 연습</h2>
+            <p><a href="#menu">메뉴이동</a></p>
+            <img src="images/교실사진.jpg", height="300", width="500", alt="교실 사진"> <!-- ../는 상위폴더로 이동, /는 하위폴더로 이동.-->
+            <figcaption>
+                학교 울타리 사진입니다.
+            </figcaption>
+            <h2 id=content2> a 태그 연습</h2>
+            <p><a href="#menu">메뉴이동</a></p>
+            <a href="https://www.dimigo.hs.kr" target="_top">디미고</a>
+            <!--a태그 target 속성-> _blank: 새창에서 열기, _self: 링크가 있는 화면에서 열기(default값)
+            _parent : 부모 프레임에 표시, _top : 프레임에서 벗어나 링크 내용을 전체 화면에 표시 -->
+        </figure>
+        <iframe src="table.html" width="500" height="200"></iframe>
+        <h2 id=content3> 마지막 실습</h2>
+        <p><a href="#menu">메뉴이동</a></p>
+    </body>
+</html>
